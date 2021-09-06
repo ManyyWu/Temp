@@ -1,3 +1,4 @@
+-- q.lua
 skynet_context_new(const char * name="snlua", const char *param="bootstrap") {
         //查询mod对象是否已存在，不存在就根据name查找文件加载创建
         struct skynet_module * mod = skynet_module_query(name="snlua");
